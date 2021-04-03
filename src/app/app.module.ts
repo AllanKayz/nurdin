@@ -12,6 +12,10 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
+import { WorksComponent } from './works/works.component';
+import { TestimonialsComponent } from './testimonials/testimonials.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +23,11 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     HeaderComponent,
     HomeComponent,
     FooterComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    ContactUsComponent,
+    WorksComponent,
+    TestimonialsComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
