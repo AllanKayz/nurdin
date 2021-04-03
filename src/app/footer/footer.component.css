@@ -1,0 +1,29 @@
+main {
+  color: #ffffff;
+  background-color: #000000e7;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.follow-me ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.list-animate {
+  padding: 5px 0;
+  transition: .2s all ease;
+}
+
+.list-animate:hover {
+  margin-left: 15px;
+  transition: .2s all ease;
+}

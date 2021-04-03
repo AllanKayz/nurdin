@@ -1,0 +1,28 @@
+main {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagenotfound {
+  text-align: center;
+}
+
+.error {
+  text-transform: uppercase;
+  text-shadow: 2px;
+  font-size: 100px;
+  padding: 50px;
+}
+
+.btn {
+  border-radius: 25px;
+}
+
+@media(max-width: 768px) {
+  .error {
+    font-size: 40px;
+    padding: 10px;
+  }
+}
