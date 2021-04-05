@@ -1,0 +1,19 @@
+.contact-us {
+  background-color: #ccc;
+}
+
+.form-card,
+.details-card {
+  box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.589);
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.link {
+  cursor: pointer;
+}
+
+.link a:hover {
+  color: #eb9a04;
+  text-decoration: none;
+}

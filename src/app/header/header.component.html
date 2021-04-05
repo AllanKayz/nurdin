@@ -1,1 +1,38 @@
-<p>header works!</p>
+<div class="header container-fluid py-3">
+  <div class="container">
+    <mat-toolbar class="bg-transparent navigation">
+      <span class="logo navbar-brand"><img src="../../favicon.ico" class="img-fluid" width="50px" height="50px"></span>
+      <span class="spacer"></span>
+      <span class="nav-link text-uppercase desktop-view-only">
+        <a routerLink="/home" routerLinkActive="active">Home</a>
+      </span>
+      <span class="nav-link text-uppercase desktop-view-only">
+        <a routerLink="/about" routerLinkActive="active">About</a>
+      </span>
+      <span class="nav-link text-uppercase desktop-view-only">
+        <a routerLink="/portfolio" routerLinkActive="active">Portfolio</a>
+      </span>
+      <span class="nav-link text-uppercase desktop-view-only">
+        <a routerLink="/contact" routerLinkActive="active">Contact</a>
+      </span>
+      <button mat-button [matMenuTriggerFor]="beforeMenu" class="mobile-view-only">
+        dfdfd
+        <!--fa-icon [icon]="faBars" size="2x"></fa-icon-->
+      </button>
+      <mat-menu #beforeMenu="matMenu" xPosition="before" class="mobile-device-menu">
+        <span mat-menu-item class="text-uppercase" routerLink="/home" routerLinkActive="active-mobile">
+          Home
+        </span>
+        <span mat-menu-item class="text-uppercase" routerLink="/about" routerLinkActive="active-mobile">
+          About
+        </span>
+        <span mat-menu-item class="text-uppercase" routerLink="/portfolio" routerLinkActive="active-mobile">
+          Projects
+        </span>
+        <span mat-menu-item class="text-uppercase" routerLink="/contact" routerLinkActive="active-mobile">
+          Contact
+        </span>
+      </mat-menu>
+    </mat-toolbar>
+  </div>
+</div>

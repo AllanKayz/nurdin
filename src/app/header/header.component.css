@@ -1,0 +1,45 @@
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  color: #eb9a04;
+}
+
+.active {
+  padding: 5px 10px;
+  border: 2px solid #eb9a04;
+  color: #eb9a04;
+}
+
+.active-mobile {
+  background-color: #eb9a04;
+  color: #fff !important;
+}
+
+::ng-deep .mat-menu-item :hover {
+  background-color: #eb9a04;
+}
+
+.spacer {
+  flex: 1 1;
+}
+
+@media(min-width:769px) {
+  .mobile-view-only {
+    display: none;
+    visibility: hidden;
+  }
+}
+
+@media(max-width:768px) {
+  .desktop-view-only {
+    display: none;
+    visibility: hidden;
+  }
+
+  .footer-note {
+    font-size: small;
+  }
+}

@@ -1,55 +1,57 @@
 <main>
-  <header></header>
+  <header #header class="w-100 fixed-top" [class.header_change]="headerVariable">
+    <app-header></app-header>
+  </header>
   <section class="w-100">
-    <div class="site-blocks-cover"></div>
-    <div class="who-we-are">
+    <div class="site-blocks-cover overlay"></div>
+    <div class="who-we-are ft-feature-1 pb-5">
       <div class="container">
-        <div class="row">
-          <div class="col-12 bg-black">
+        <div class="row align-items-stretch">
+          <div class="col-12 bg-orange ft-feature-1-content">
             <div class="row align-items-center p-5">
               <div class="col-lg-5">
                 <div class="h-100">
-                  <div class="mb-3 d-flex align-items-center text-white">
-                    <h2>What We Do At Sleek Graphics</h2>
+                  <div class="mb-5 d-flex align-items-center text-white">
+                    <h1 class="font-weight-bold">Who We Are And What We Do...</h1>
                   </div>
                   <img src="../../assets/img/about_1.jpg" alt="Image" class="img-feature img-fluid">
                 </div>
               </div>
               <div class="col-lg-3 ml-auto">
-                <div class="what-we-do-item">
-                  <h2 class="text-white">Visual Identity</h2>
+                <div class="what-we-do-item mb-3">
+                  <h2 class="text-white d-flex align-items-center">Visual Identity</h2>
                   <p class="text-white-50">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ab nihil quam nesciunt.
                   </p>
                 </div>
-                <div class="what-we-do-item">
-                  <h2 class="text-white">Marketing Materials</h2>
+                <div class="what-we-do-item mb-3">
+                  <h2 class="text-white d-flex align-items-center">Marketing Materials</h2>
                   <p class="text-white-50">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ab nihil quam nesciunt.
                   </p>
                 </div>
-                <div class="what-we-do-item">
-                  <h2 class="text-white">Product Packaging</h2>
+                <div class="what-we-do-item mb-3">
+                  <h2 class="text-white d-flex align-items-center">Product Packaging</h2>
                   <p class="text-white-50">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ab nihil quam nesciunt.
                   </p>
                 </div>
               </div>
               <div class="col-lg-3">
-                <div class="what-we-do-item">
-                  <h2 class="text-white">Presentations</h2>
+                <div class="what-we-do-item mb-3">
+                  <h2 class="text-white d-flex align-items-center">Presentations</h2>
                   <p class="text-white-50">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ab nihil quam nesciunt.
                   </p>
                 </div>
-                <div class="what-we-do-item">
-                  <h2 class="text-white">Shirt & Apparel Designs</h2>
+                <div class="what-we-do-item mb-3">
+                  <h2 class="text-white d-flex align-content-center">Shirt & Apparel Designs</h2>
                   <p class="text-white-50">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ab nihil quam nesciunt.
                   </p>
                 </div>
-                <div class="what-we-do-item">
-                  <h2 class="text-white">Reports illustrations</h2>
+                <div class="what-we-do-item mb-3">
+                  <h2 class="text-white d-flex align-content-center">Reports illustrations</h2>
                   <p class="text-white-50">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ab nihil quam nesciunt.
                   </p>
@@ -60,7 +62,7 @@
         </div>
       </div>
     </div>
-    <div class="mission-statement">
+    <div class="mission-statement pt-5 pb-5">
       <div class="container">
         <div class="row p-5">
           <div class="col-sm-12 col-md-4">
@@ -151,13 +153,15 @@
         </div>
       </div>
     </div>
-    <div class="testimonials"></div>
+    <div class="testimonials">
+      <app-testimonials></app-testimonials>
+    </div>
     <div class="hire-us text-center">
       <a href="" class="d-block">
         <div class="container">
           <div class="row justify-content-center py-4">
             <div class="col-md-12">
-              <h1 class="text-white text-uppercase font-weight-bold">Hire Us & Lets Get Started</h1>
+              <h1 class="text-white text-uppercase font-weight-bold">Hire Me & Lets Get Started</h1>
             </div>
           </div>
         </div>
