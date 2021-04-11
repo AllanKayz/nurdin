@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { WebsitedataService } from '../services/websitedata.service';
 import { OwlOptions } from 'ngx-owl-carousel-o';
 
 @Component({
@@ -14,6 +15,7 @@ export class TestimonialsComponent implements OnInit {
     touchDrag: true,
     pullDrag: false,
     dots: true,
+    autoplay: true,
     navSpeed: 700,
     responsive: {
       0: {
@@ -23,9 +25,14 @@ export class TestimonialsComponent implements OnInit {
     nav: false
   }
 
-  constructor() { }
+  public testimonies: any = [];
+
+  constructor(private websiteData: WebsitedataService) { }
 
   ngOnInit(): void {
+    this.websiteData.getLocalData().subscribe((data: any) => {
+      this.testimonies = data.testimonies;
+    })
   }
 
 }

@@ -1,4 +1,6 @@
-import { Component, OnInit, HostListener } from '@angular/core';
+import { Component, OnInit, HostListener, ViewChild } from '@angular/core';
+import { Router } from '@angular/router';
+import { WebsitedataService } from '../services/websitedata.service';
 
 @Component({
   selector: 'app-home',
@@ -7,19 +9,19 @@ import { Component, OnInit, HostListener } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  headerVariable: any = false;
+  public projects: any = [];
 
-  @HostListener('document:scroll') scrollfunction(): void {
-    if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
-      this.headerVariable = true;
-    }
-    else {
-      this.headerVariable = false;
-    }
-  }
-
-  constructor() { }
+  constructor(private router: Router, private websiteData: WebsitedataService) { }
 
   ngOnInit(): void {
+    this.websiteData.getLocalData().subscribe((data: any) => {
+      let arrayEndPos = data.projects.length;
+      let thirdPosFromEnd = data.projects.length - 3;
+      this.projects = data.projects.slice(thirdPosFromEnd, arrayEndPos);
+    });
+  }
+
+  showWork() {
+    this.router.navigate(['portfolio']);
   }
 }

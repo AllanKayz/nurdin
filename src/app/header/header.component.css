@@ -10,7 +10,7 @@ a:hover {
 .active {
   padding: 5px 10px;
   border: 2px solid #eb9a04;
-  color: #eb9a04;
+  color: #eb9a04 !important;
 }
 
 .active-mobile {
@@ -42,4 +42,9 @@ a:hover {
   .footer-note {
     font-size: small;
   }
+}
+
+.logo {
+  font-size: 300;
+  font-weight: bold;
 }

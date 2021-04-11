@@ -1,4 +1,5 @@
 import { Component, OnInit, HostListener } from '@angular/core';
+import { WebsitedataService } from '../services/websitedata.service'
 
 @Component({
   selector: 'app-works',
@@ -18,9 +19,13 @@ export class WorksComponent implements OnInit {
     }
   }
 
-  constructor() { }
+  public projects: any = [];
+
+  constructor(private websiteData: WebsitedataService) { }
 
   ngOnInit(): void {
+    this.websiteData.getLocalData().subscribe((data: any) => {
+      this.projects = data.projects;
+    });
   }
-
 }

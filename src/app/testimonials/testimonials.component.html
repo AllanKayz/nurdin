@@ -7,21 +7,18 @@
     </div>
     <div class="testimony-slide">
       <owl-carousel-o [options]="testimonials">
-        <ng-template carouselSlide class="testimony p-3">
+        <ng-template *ngFor="let testimony of testimonies" carouselSlide class="testimony p-3">
           <div class="testimonial">
             <blockquote class="my-5 pb-5">
-              <p class="lead">
-                “Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam
-                quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet
-                dolores excepturi earum unde iusto.”</p>
+              <p class="lead">“{{testimony.testimonial}}”</p>
             </blockquote>
             <figure class="my-5 py-5 d-flex align-items-center justify-content-center">
-              <div><img src="../../assets/img/person_1.jpg" alt="Image" class="w-50 img-fluid mb-3"></div>
-              <p>Robert Spears</p>
+              <div><img src="../../assets/img/{{testimony.authorimage}}" alt="Image" class="w-50 img-fluid mb-3"></div>
+              <p class="text-capitalize">{{testimony.author}}</p>
             </figure>
           </div>
         </ng-template>
-        <ng-template carouselSlide class="testimony p-3">
+        <!--ng-template carouselSlide class="testimony p-3">
           <div class="testimonial">
             <blockquote class="my-5 pb-5">
               <p class="lead">
@@ -34,7 +31,7 @@
               <p>John Rogers</p>
             </figure>
           </div>
-        </ng-template>
+        </ng-template-->
       </owl-carousel-o>
     </div>
   </div>

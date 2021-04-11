@@ -17,3 +17,28 @@
   color: #eb9a04;
   text-decoration: none;
 }
+
+@media(max-width:768px) {
+  .w-50 {
+    width: 100% !important;
+  }
+
+  .contact-us {
+    background-color: #fff;
+  }
+
+  .form-card,
+  .details-card {
+    box-shadow: none;
+    border-radius: 0;
+    background-color: #fff;
+  }
+
+  .mt-5 {
+    margin-top: 0 !important;
+  }
+
+  .mb-5 {
+    margin-bottom: 0 !important;
+  }
+}

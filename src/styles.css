@@ -154,7 +154,13 @@ ul {
 }
 
 .site-section-heading {
-  font-size: 4rem;
+  font-size: 4rem !important;
+}
+
+@media (max-width: 768px) {
+  .site-section-heading {
+    font-size: 3rem !important;
+  }
 }
 
 .site-section-heading:after {

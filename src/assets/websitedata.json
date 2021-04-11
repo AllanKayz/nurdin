@@ -1,0 +1,99 @@
+{
+    "projects": [
+            {
+                "id": 1,
+                "imagename": "img_1.jpg",
+                "name": "project name 1",
+                "category": "apparel designs"
+            },
+            {
+                "id": 2,
+                "imagename": "img_2.jpg",
+                "name": "project name 2",
+                "category": "apparel designs"
+            },
+            {
+                "id": 3,
+                "imagename": "img_3.jpg",
+                "name": "project name 3",
+                "category": "apparel designs"
+            },
+            {
+                "id": 4,
+                "imagename": "img_4.jpg",
+                "name": "project name 4",
+                "category": "apparel designs"
+            },
+            {
+                "id": 5,
+                "imagename": "img_5.jpg",
+                "name": "project name 5",
+                "category": "apparel designs"
+            },
+            {
+                "id": 6,
+                "imagename": "img_6.jpg",
+                "name": "project name 6",
+                "category": "apparel designs"
+            },
+            {
+                "id": 7,
+                "imagename": "img_1.jpg",
+                "name": "project name 7",
+                "category": "apparel designs"
+            },
+            {
+                "id": 8,
+                "imagename": "img_2.jpg",
+                "name": "project name 8",
+                "category": "apparel designs"
+            },
+            {
+                "id": 9,
+                "imagename": "img_3.jpg",
+                "name": "project name 9",
+                "category": "apparel designs"
+            },
+            {
+                "id": 10,
+                "imagename": "img_4.jpg",
+                "name": "project name 10",
+                "category": "apparel designs"
+            },
+            {
+                "id": 11,
+                "imagename": "img_5.jpg",
+                "name": "project name 11",
+                "category": "apparel designs"
+            },
+            {
+                "id": 12,
+                "imagename": "img_6.jpg",
+                "name": "project name 12",
+                "category": "apparel designs"
+            }
+        ],
+    "testimonies": [
+        {
+            "id": 1,
+            "testimonial": "Lorem ipsum dolor sit amet consectetur adipisicing elit.Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur.Amet dolores excepturi earum unde iusto.",
+            "author": "mandy smith",
+            "authorimage": "person_1.jpg",
+            "source": ""
+        },
+        {
+            "id": 2,
+            "testimonial": "Lorem ipsum dolor sit amet consectetur adipisicing elit.Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur.Amet dolores excepturi earum unde iusto.",
+            "author": "robert spears",
+            "authorimage": "person_2.jpg",
+            "source": ""
+        },
+        {
+            "id": 3,
+            "testimonial": "Lorem ipsum dolor sit amet consectetur adipisicing elit.Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur.Amet dolores excepturi earum unde iusto.",
+            "author": "roger williams",
+            "authorimage": "person_3.jpg",
+            "source": ""
+        }
+    ]
+}

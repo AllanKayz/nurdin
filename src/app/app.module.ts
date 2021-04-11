@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { MaterialModule } from './modules/material/material.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { NgxPageScrollModule } from 'ngx-page-scroll';
 
@@ -16,6 +17,7 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { WorksComponent } from './works/works.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { AboutComponent } from './about/about.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { AboutComponent } from './about/about.component';
     ContactUsComponent,
     WorksComponent,
     TestimonialsComponent,
-    AboutComponent
+    AboutComponent,
+    LoginComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -36,6 +40,7 @@ import { AboutComponent } from './about/about.component';
     MaterialModule,
     FormsModule,
     ReactiveFormsModule,
+    HttpClientModule,
     CarouselModule,
     NgxPageScrollModule
   ],
