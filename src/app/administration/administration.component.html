@@ -1,0 +1,81 @@
+<main>
+  <section #sidebar class="sidebar">
+    <div class="sidebar-header">
+      <mat-toolbar class="bg-transparent header py-5">
+        <span #logo class="logo navbar-brand">
+          <h1 class="text-uppercase text-black-50">Sleek Graphics</h1>
+        </span>
+        <span #spacer class="spacer"></span>
+        <span class="w-100">
+          <button type="button" (click)="toggleSidebar()" class="mx-auto w-100">X</button>
+        </span>
+      </mat-toolbar>
+      <div #sidebarList class="sidemenu py-5">
+        <a class="menu-list py-4 w-100 px-3" routerLink="dashboard" routerLinkActive="active">
+          <span class="mx-auto">Icon</span>
+          <span #dashboard class="ml-4 text-capitalize menu-text">Dashboard</span>
+        </a>
+        <a class="menu-list py-4 w-100 px-3" routerLink="messages" routerLinkActive="active">
+          <span class="mx-auto">Icon</span>
+          <span #inbox class="ml-4 text-capitalize menu-text">Inbox</span>
+        </a>
+        <a class="menu-list py-4 w-100 px-3" routerLink="tasks" routerLinkActive="active">
+          <span class="mx-auto">Icon</span>
+          <span #tasks class="ml-4 text-capitalize menu-text">Tasks</span>
+        </a>
+        <a class="menu-list py-4 w-100 px-3" routerLink="sitemanager" routerLinkActive="active">
+          <span class="mx-auto">Icon</span>
+          <span #manageSite class="ml-4 text-capitalize menu-text">Manage Site</span>
+        </a>
+      </div>
+    </div>
+  </section>
+  <section #contentPanel class="content-panel">
+    <div #mobileMenu class="mobileviewMenu bg-green hide">
+      <mat-toolbar class="bg-transparent header py-5">
+        <span class="mobile-logo navbar-brand">
+          <h1 class="text-uppercase text-black-50">Sleek Graphics</h1>
+        </span>
+        <span #spacer class="spacer"></span>
+        <span class="w-100">
+          <button type="button" (click)="closeMobileMenu()" class="mx-auto">X</button>
+        </span>
+      </mat-toolbar>
+      <div class="sidemenu py-5">
+        <ul #sidebarList class="list-unstyled">
+          <li class="menu-list py-4 w-100 px-4">
+            <span class="mx-auto">Icon</span>
+            <span class="ml-4 text-capitalize menu-text dashboard-link">Dashboard</span>
+          </li>
+          <li class="menu-list py-4 w-100 px-4">
+            <span class="mx-auto">Icon</span>
+            <span class="ml-4 text-capitalize menu-text inbox-link">Inbox</span>
+          </li>
+          <li class="menu-list py-4 w-100 px-4">
+            <span>Icon</span>
+            <span class="ml-4 text-capitalize menu-text tasks-link">Tasks</span>
+          </li>
+          <li class="menu-list py-4 w-100 px-4">
+            <span>Icon</span>
+            <span class="ml-4 text-capitalize menu-text managesite-link">Manage Site</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="toolbar">
+      <mat-toolbar class="bg-transparent">
+        <span class="toggleMobileMenu mobile-view-only">
+          <button type="button" (click)="showMobileMenu()">X</button>
+        </span>
+        <span class="user"></span>
+        <span class="spacer"></span>
+        <span class="text-black px-2">Mail</span>
+        <span class="text-black px-2">settings</span>
+        <span class="text-black px-2">logout</span>
+      </mat-toolbar>
+    </div>
+    <div class="page-content p-3">
+      <router-outlet></router-outlet>
+    </div>
+  </section>
+</main>

@@ -1,0 +1,105 @@
+main {
+  height: 100vh;
+  display: flex;
+}
+
+.hide {
+  display: none;
+  visibility: hidden;
+  transition: 1s all ease;
+}
+
+.bg-green {
+  background-color: green;
+}
+
+.active {
+  background-color: orange;
+  color: #fff;
+}
+
+.sidebar {
+  flex: 1;
+  box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.589);
+  transition: 1s all ease;
+}
+
+.content-panel {
+  flex: 4;
+  transition: 1s all ease;
+}
+
+.content-panel-flex-11 {
+  flex: 11;
+  transition: 1s all ease;
+}
+
+.content-panel-flex-11 button {
+  margin-left: 50%;
+}
+
+.spacer {
+  flex: 1 1;
+}
+
+.header {
+  border-bottom: 1px solid #ccc;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidemenu {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidemenu a {
+  text-decoration: none;
+  color: #000;
+}
+
+.menu-list {
+  cursor: pointer;
+}
+
+.menu-text {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+::ng-deep .mat-toolbar {
+  color: black;
+}
+
+.toolbar {
+  border-bottom: 2px solid #ccc;
+}
+
+@media(min-width: 769px) {
+  .mobile-view-only {
+    display: none;
+    visibility: hidden;
+  }
+}
+
+@media(max-width: 768px) {
+  .sidebar {
+    flex: 1;
+    display: none;
+  }
+
+  .content-panel {
+    flex: 11;
+  }
+
+  .mobileviewMenu {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    z-index: 1000;
+    box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.589);
+  }
+}

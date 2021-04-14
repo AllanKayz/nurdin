@@ -8,6 +8,11 @@ a {
   color: #ffffff;
 }
 
+a:hover {
+  color: #eb9a04;
+  transition: .5s all ease;
+}
+
 .footer-content {
   display: flex;
   justify-content: space-evenly;

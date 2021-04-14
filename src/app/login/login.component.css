@@ -1,0 +1,21 @@
+main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-window {
+  width: 30%;
+  border-radius: 10px;
+}
+
+.bg-black {
+  background-color: rgb(22, 22, 22);
+}
+
+@media(max-width: 768px) {
+  .login-window {
+    width: 100%;
+  }
+}

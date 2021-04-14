@@ -1,1 +1,16 @@
-<p>login works!</p>
+<main class="">
+  <div class="login-window bg-black p-4 text-center">
+    <h1 class="text-uppercase font-weight-bold">Administrator</h1>
+    <form #loginForm="ngForm">
+      <mat-form-field class="w-100" appearance="fill">
+        <mat-label class="text-uppercase">Username or Email</mat-label>
+        <input matInput type="email" name="email" ngModel required>
+      </mat-form-field>
+      <mat-form-field class="w-100" appearance="fill">
+        <mat-label class="text-uppercase">Password</mat-label>
+        <input matInput type="password" name="password" ngModel required>
+      </mat-form-field>
+      <button (click)="login(loginForm)" mat-raised-button class="w-100 text-uppercase">Login</button>
+    </form>
+  </div>
+</main>

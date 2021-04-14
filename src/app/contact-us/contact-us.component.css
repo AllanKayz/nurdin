@@ -18,6 +18,15 @@
   text-decoration: none;
 }
 
+.form-control {
+  border: 1px solid #eb9a0483;
+}
+
+.form-control:focus,
+.form-control-focus {
+  box-shadow: #eb9a04;
+}
+
 @media(max-width:768px) {
   .w-50 {
     width: 100% !important;

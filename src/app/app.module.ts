@@ -18,6 +18,11 @@ import { WorksComponent } from './works/works.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { AboutComponent } from './about/about.component';
 import { LoginComponent } from './login/login.component';
+import { AdministrationComponent } from './administration/administration.component';
+import { DashboardComponent } from './administration/dashboard/dashboard.component';
+import { MessagesComponent } from './administration/messages/messages.component';
+import { SitemanagerComponent } from './administration/sitemanager/sitemanager.component';
+import { TasksComponent } from './administration/tasks/tasks.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +36,11 @@ import { LoginComponent } from './login/login.component';
     TestimonialsComponent,
     AboutComponent,
     LoginComponent,
+    AdministrationComponent,
+    DashboardComponent,
+    MessagesComponent,
+    SitemanagerComponent,
+    TasksComponent,
 
   ],
   imports: [
