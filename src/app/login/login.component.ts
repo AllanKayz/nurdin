@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { NgForm } from '@angular/forms';
+import { Router } from '@angular/router';
 
 @Component({
     selector: 'app-login',
@@ -8,13 +9,28 @@ import { NgForm } from '@angular/forms';
 })
 export class LoginComponent implements OnInit {
 
-    constructor() { }
+    constructor(private router: Router) { }
 
     ngOnInit(): void {
     }
 
+    @ViewChild('alert') alert: any;
+
+    public loginError: string = 'Fill All Required Fields';
+
     login(loginForm: NgForm) {
-        console.log(loginForm.value, loginForm.valid);
+        if (loginForm.valid) {
+            console.log(loginForm.value, loginForm.valid);
+            this.router.navigate(['administration/dashboard']);
+        }
+        else {
+            this.alert.nativeElement.classList.remove('hidden');
+            this.loginError
+        }
+    }
+
+    closeAlert() {
+        this.alert.nativeElement.classList.add('hidden');
     }
 
 }

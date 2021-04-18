@@ -1,0 +1,18 @@
+.row {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
+.values,
+.philosophy,
+.mission {
+  border-radius: 10px;
+  background-color: aqua;
+  padding: 10px;
+}
+
+.btn-edit {
+  position: absolute;
+  top: 13%;
+  right: 10%;
+}

@@ -77,23 +77,41 @@
         {
             "id": 1,
             "testimonial": "Lorem ipsum dolor sit amet consectetur adipisicing elit.Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur.Amet dolores excepturi earum unde iusto.",
-            "author": "mandy smith",
+            "author": "Grace Chimuti",
             "authorimage": "person_1.jpg",
             "source": ""
         },
         {
             "id": 2,
             "testimonial": "Lorem ipsum dolor sit amet consectetur adipisicing elit.Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur.Amet dolores excepturi earum unde iusto.",
-            "author": "robert spears",
+            "author": "knowledge musona",
             "authorimage": "person_2.jpg",
             "source": ""
         },
         {
             "id": 3,
             "testimonial": "Lorem ipsum dolor sit amet consectetur adipisicing elit.Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur.Amet dolores excepturi earum unde iusto.",
-            "author": "roger williams",
+            "author": "calisto pasuwa",
             "authorimage": "person_3.jpg",
             "source": ""
+        }
+    ],
+    "statements": [
+        {
+            "id": 1,
+            "values": "Lorem ipsum dolor sit amet consectetur adipisicing elit.Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur.Amet dolores excepturi earum unde iusto.",
+            "mission": "Lorem ipsum dolor sit amet consectetur adipisicing elit.Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur.Amet dolores excepturi earum unde iusto.",
+            "philosophy": "Lorem ipsum dolor sit amet consectetur adipisicing elit.Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur.Amet dolores excepturi earum unde iusto."
+        }
+    ],
+    "profile": [
+        {
+            "id": 1,
+            "name": "Nurdin Chirwa",
+            "alterego": "sabhuku dofo",
+            "phone": "+27 62 668 3369",
+            "email": "nurdinchirwa@gmail.com",
+            "address": "203 Fake St, Mountain View, San Francisco, Manicaland, Zimbabwe"
         }
     ]
 }
