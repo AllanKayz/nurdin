@@ -42,6 +42,10 @@ a:hover {
   .footer-note {
     font-size: small;
   }
+
+  .menu-color {
+    color: #775008 !important;
+  }
 }
 
 .logo {

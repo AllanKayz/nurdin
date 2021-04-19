@@ -1,6 +1,5 @@
 import { Component, OnInit, HostListener, ViewChild, AfterViewInit } from '@angular/core';
 import { Router } from '@angular/router';
-// import { NgxTypedJsComponent } from 'ngx-typed-js';
 import { WebsitedataService } from '../services/websitedata.service';
 import Typed from 'typed.js';
 
@@ -11,7 +10,6 @@ import Typed from 'typed.js';
 })
 export class HomeComponent implements OnInit, AfterViewInit {
 
-  // @ViewChild(NgxTypedJsComponent) typed: any;
   public projects: any = [];
 
   constructor(private router: Router, private websiteData: WebsitedataService) {

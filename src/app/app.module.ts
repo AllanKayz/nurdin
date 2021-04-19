@@ -6,6 +6,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { NgxPageScrollModule } from 'ngx-page-scroll';
 import { NgxTypedJsModule } from 'ngx-typed-js';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -54,7 +55,8 @@ import { TasksComponent } from './administration/tasks/tasks.component';
     HttpClientModule,
     CarouselModule,
     NgxPageScrollModule,
-    NgxTypedJsModule
+    NgxTypedJsModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
