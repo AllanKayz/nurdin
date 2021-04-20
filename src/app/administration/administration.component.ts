@@ -1,4 +1,5 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
+import { faBars, faCog, faEnvelope, faSignOutAlt } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-administration',
@@ -7,13 +8,10 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 })
 export class AdministrationComponent implements OnInit {
 
-
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  public faBars = faBars;
+  public faEnvelope = faEnvelope;
+  public faCog = faCog;
+  public faSignOutAlt = faSignOutAlt;
   @ViewChild('sidebar') sidebar: any;
   @ViewChild('contentPanel') contentPanel: any;
   @ViewChild('logo') logo: any;
@@ -24,6 +22,11 @@ export class AdministrationComponent implements OnInit {
   @ViewChild('manageSite') manageSite: any;
   @ViewChild('sidebarList') sidebarList: any;
   @ViewChild('mobileMenu') mobileMenu: any;
+
+  constructor() { }
+
+  ngOnInit(): void {
+  }
 
   public elementsArray: any = [];
   private addHideClass(element: any, index: any, array: any) {

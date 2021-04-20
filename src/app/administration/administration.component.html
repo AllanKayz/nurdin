@@ -7,7 +7,9 @@
         </span>
         <span #spacer class="spacer"></span>
         <span class="w-100">
-          <button type="button" (click)="toggleSidebar()" class="mx-auto w-100">X</button>
+          <button mat-button (click)="toggleSidebar()" class="mx-auto w-100">
+            <fa-icon [icon]="faBars" size="2x"></fa-icon>
+          </button>
         </span>
       </mat-toolbar>
       <div #sidebarList class="sidemenu py-5">
@@ -38,7 +40,10 @@
         </span>
         <span #spacer class="spacer"></span>
         <span class="w-100">
-          <button type="button" (click)="closeMobileMenu()" class="mx-auto">X</button>
+          <span (click)="closeMobileMenu()">
+            <fa-icon [icon]="faBars" size="2x"></fa-icon>
+          </span>
+          <!--button type="button"  class="mx-auto">X</button-->
         </span>
       </mat-toolbar>
       <div class="sidemenu py-5">
@@ -65,13 +70,27 @@
     <div class="toolbar">
       <mat-toolbar class="bg-orange-dark">
         <span class="toggleMobileMenu mobile-view-only">
-          <button type="button" (click)="showMobileMenu()">X</button>
+          <span (click)="showMobileMenu()">
+            <fa-icon [icon]="faBars" size="2x"></fa-icon>
+          </span>
         </span>
         <span class="user"></span>
         <span class="spacer"></span>
-        <span class="text-white px-2">Mail</span>
-        <span class="text-white px-2">settings</span>
-        <span routerLink="/home" class="text-white px-2">logout</span>
+        <span class="text-white px-2">
+          <a href="">
+            <fa-icon [icon]="faEnvelope"></fa-icon>
+          </a>
+        </span>
+        <span class="text-white px-2">
+          <a href="">
+            <fa-icon [icon]="faCog"></fa-icon>
+          </a>
+        </span>
+        <span class="text-white px-2">
+          <a routerLink="/home">
+            <fa-icon [icon]="faSignOutAlt"></fa-icon>
+          </a>
+        </span>
       </mat-toolbar>
     </div>
     <div id="content" class="page-content py-3 px-1">
