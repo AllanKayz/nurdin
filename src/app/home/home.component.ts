@@ -11,6 +11,7 @@ import Typed from 'typed.js';
 export class HomeComponent implements OnInit, AfterViewInit {
 
   public projects: any = [];
+  private typed: any;
 
   constructor(private router: Router, private websiteData: WebsitedataService) {
     // super();
@@ -25,7 +26,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
   }
 
   ngAfterViewInit(): void {
-    let typed = new Typed('.typed-words', {
+    this.typed = new Typed('.typed-words', {
       strings: ['Logo Design', 'Product Packaging', 'Marketing Material Design', 'Shirt and Apparel Design'],
       typeSpeed: 100,
       backSpeed: 80,
@@ -38,5 +39,9 @@ export class HomeComponent implements OnInit, AfterViewInit {
 
   showWork(): any {
     this.router.navigate(['portfolio']);
+  }
+
+  btnHireMe(): any {
+    return window.location.href = 'https://wa.me/26726683369?text=%20Just%20Viewed%20Your%20Profile%20Thought%20We%20Should%20Talk%20More';
   }
 }
