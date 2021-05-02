@@ -22,7 +22,7 @@ export class HeaderComponent implements OnInit {
       this.aboutLink.nativeElement.classList.remove('text-white');
       this.portfolioLink.nativeElement.classList.remove('text-white');
       this.contactLink.nativeElement.classList.remove('text-white');
-      this.logo.nativeElement.classList.add('text-black-50');
+      this.logo.nativeElement.classList.remove('hide');
     }
     else {
       this.headerVariable = false;
@@ -30,7 +30,7 @@ export class HeaderComponent implements OnInit {
       this.aboutLink.nativeElement.classList.add('text-white');
       this.portfolioLink.nativeElement.classList.add('text-white');
       this.contactLink.nativeElement.classList.add('text-white');
-      this.logo.nativeElement.classList.remove('text-black-50');
+      this.logo.nativeElement.classList.add('hide');
     }
   }
 

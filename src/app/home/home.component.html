@@ -30,47 +30,35 @@
                 <div class="mb-5 d-flex align-items-center text-white">
                   <h1 class="font-weight-bold text-capitalize">Who I am And What I Do...</h1>
                 </div>
-                <img src="../../assets/img/about_1.jpg" alt="Image" class="img-feature img-fluid">
+                <img src="../../assets/img/about_2.jpg" alt="Image" class="img-feature img-fluid">
               </div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-12 ml-auto">
               <div class="what-we-do-item mb-3">
                 <h2 class="text-white d-flex align-items-center">Visual Identity</h2>
-                <p class="text-white-50">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ab nihil quam nesciunt.
-                </p>
+                <p class="text-white-50 text-justify">{{visualIdentity}}</p>
               </div>
               <div class="what-we-do-item mb-3">
                 <h2 class="text-white d-flex align-items-center">Marketing Materials</h2>
-                <p class="text-white-50">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ab nihil quam nesciunt.
-                </p>
+                <p class="text-white-50 text-justify">{{marketingMaterial}}</p>
               </div>
               <div class="what-we-do-item mb-3">
                 <h2 class="text-white d-flex align-items-center">Product Packaging</h2>
-                <p class="text-white-50">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ab nihil quam nesciunt.
-                </p>
+                <p class="text-white-50 text-justify">{{productPackaging}}</p>
               </div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-12">
               <div class="what-we-do-item mb-3">
                 <h2 class="text-white d-flex align-items-center">Presentations</h2>
-                <p class="text-white-50">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ab nihil quam nesciunt.
-                </p>
+                <p class="text-white-50 text-justify">{{presentations}}</p>
               </div>
               <div class="what-we-do-item mb-3">
                 <h2 class="text-white d-flex align-content-center">Shirt & Apparel Designs</h2>
-                <p class="text-white-50">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ab nihil quam nesciunt.
-                </p>
+                <p class="text-white-50 text-justify">{{shirtAndApparel}}</p>
               </div>
               <div class="what-we-do-item mb-3">
                 <h2 class="text-white d-flex align-content-center">Reports illustrations</h2>
-                <p class="text-white-50">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ab nihil quam nesciunt.
-                </p>
+                <p class="text-white-50 text-justify">{{reportsIllustrations}}</p>
               </div>
             </div>
           </div>
@@ -80,34 +68,47 @@
   </div>
   <div class="mission-statement pt-5 pb-5">
     <div class="container">
-      <div class="row p-5">
+      <div class="row p-5 text-center">
         <div class="col-sm-12 col-md-4">
+          <div class="mission text-justify">
+            <h1 class="text-uppercase">Mission</h1>
+            <p class="text-black-50">{{mission}}</p>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4">
+          <div class="vision text-justify">
+            <h1 class="text-uppercase">Vision</h1>
+            <p class="text-black-50">{{vision}}</p>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4">
+          <div class="philosophy text-justify">
+            <h1 class="text-uppercase">Philosophy</h1>
+            <p class="text-black-50">{{philosophy}}</p>
+          </div>
+        </div>
+      </div>
+      <div class="row px-5 pt-2 pb-5">
+        <div class="col-sm-12 col-md-12">
           <div class="values">
             <h1 class="text-uppercase">Values</h1>
-            <p class="text-black-50">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Et praesentium eos nulla qui commodi consectetur
-              beatae fugiat. Veniam iste rerum perferendis.
-            </p>
+            <div class="text-justify text-black-50">
+              <div class="row">
+                <div class="col-md-4">
+                  <strong class="text-capitalize">Memorable Customer Experience</strong>
+                  <span class="text-black-50">&nbsp;{{values.memorable}}</span>
+                </div>
+                <div class="col-md-4">
+                  <strong class="text-capitalize">integrity</strong>
+                  <span class="text-black-50">&nbsp;{{values.integrity}}</span>
+                </div>
+                <div class="col-md-4">
+                  <strong class="text-capitalize">professionalism</strong>
+                  <span class="text-black-50">&nbsp;{{values.professionalism}}</span>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="col-sm-12 col-md-4">
-          <div class="mission">
-            <h1 class="text-uppercase">Mission</h1>
-            <p class="text-black-50">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Et praesentium eos nulla qui commodi consectetur
-              beatae fugiat. Veniam iste rerum perferendis.
-            </p>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-4">
-          <h1 class="text-uppercase">Philosophy</h1>
-          <p class="text-black-50">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Et praesentium eos nulla qui commodi consectetur
-            beatae fugiat. Veniam iste rerum perferendis.
-          </p>
         </div>
       </div>
     </div>
@@ -119,9 +120,8 @@
           <h1 class="site-section-heading h1 p-3 text-capitalize">portfolio</h1>
         </div>
         <div class="col-md-8 text-center pt-5">
-          <p class="lead text-black-50">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, itaque
-            neque, delectus odio iure explicabo.
+          <p class="lead text-black-50 text-capitalize">
+            Works define who we are. Here are some of the projects I have worked on.
           </p>
         </div>
       </div>

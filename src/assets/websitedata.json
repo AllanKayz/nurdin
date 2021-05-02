@@ -1,76 +1,71 @@
 {
+    "logo":"logo.png",
     "projects": [
             {
                 "id": 1,
-                "imagename": "img_1.jpg",
-                "name": "project name 1",
-                "category": "apparel designs"
+                "imagename": "parspar.jpg",
+                "name": "par spa",
+                "category": "flyer"
             },
             {
                 "id": 2,
-                "imagename": "img_2.jpg",
-                "name": "project name 2",
-                "category": "apparel designs"
+                "imagename": "runakoshirt.jpg",
+                "name": "Runako Shirt",
+                "category": "shirt designs"
             },
             {
                 "id": 3,
-                "imagename": "img_3.jpg",
-                "name": "project name 3",
+                "imagename": "tonaz.jpg",
+                "name": "tonaz",
                 "category": "apparel designs"
             },
             {
                 "id": 4,
-                "imagename": "img_4.jpg",
-                "name": "project name 4",
-                "category": "apparel designs"
+                "imagename": "chandra.jpg",
+                "name": "chandra",
+                "category": "billboard"
             },
             {
                 "id": 5,
-                "imagename": "img_5.jpg",
-                "name": "project name 5",
+                "imagename": "methodistmask.jpg",
+                "name": "methodist mask",
                 "category": "apparel designs"
             },
             {
                 "id": 6,
-                "imagename": "img_6.jpg",
-                "name": "project name 6",
-                "category": "apparel designs"
+                "imagename": "rebelslogo.jpg",
+                "name": "rebels",
+                "category": "logo"
             },
             {
                 "id": 7,
-                "imagename": "img_1.jpg",
-                "name": "project name 7",
-                "category": "apparel designs"
+                "imagename": "missfah.jpg",
+                "name": "miss fah",
+                "category": "flyer"
             },
             {
                 "id": 8,
-                "imagename": "img_2.jpg",
-                "name": "project name 8",
+                "imagename": "biteful.jpg",
+                "name": "biteful",
                 "category": "apparel designs"
             },
             {
                 "id": 9,
-                "imagename": "img_3.jpg",
-                "name": "project name 9",
-                "category": "apparel designs"
+                "imagename": "runakologo.jpg",
+                "name": "runako piggery",
+                "category": "logo"
             },
             {
                 "id": 10,
-                "imagename": "img_4.jpg",
-                "name": "project name 10",
-                "category": "apparel designs"
+                "imagename": "bluesurge.jpg",
+                "name": "bluesurge technologies",
+                "category": "logo"
             },
             {
                 "id": 11,
-                "imagename": "img_5.jpg",
-                "name": "project name 11",
-                "category": "apparel designs"
-            },
-            {
-                "id": 12,
-                "imagename": "img_6.jpg",
-                "name": "project name 12",
-                "category": "apparel designs"
+                "imagename": "cybernet.jpg",
+                "name": "cybernet",
+                "category": "banner"
             }
         ],
     "testimonies": [
@@ -99,19 +94,36 @@
     "statements": [
         {
             "id": 1,
-            "values": "Lorem ipsum dolor sit amet consectetur adipisicing elit.Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur.Amet dolores excepturi earum unde iusto.",
-            "mission": "Lorem ipsum dolor sit amet consectetur adipisicing elit.Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur.Amet dolores excepturi earum unde iusto.",
-            "philosophy": "Lorem ipsum dolor sit amet consectetur adipisicing elit.Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur.Amet dolores excepturi earum unde iusto."
+            "values": 
+            {
+                "professionalism": "– mutual respect and transparent work flow through out the operation to maintain a professional relationship is essential.",
+                "integrity": "– our work should meet your requirements preserving your identity and solidifying the integrity of your brand.",
+                "memorable": "– from the point of engagement to when you receive their design package, the process should be flawless and based on clear communication from our team to you."
+            },
+            "mission": "Fostering an organic synergy between the creative and our valued clients to produce work that leaves both parties satisfied.",
+            "philosophy": "Sleek work communicates volumes getting the message across to all demographics.",
+            "vision": "To become the all-encompassing hub for digital solutions."
+        }
+    ],
+    "services": [
+        {
+            "visualIdentity": "Shaping uncontested perception and impression of brands through visible elements of your brand. We achieve this through Logos & Typography.",
+            "marketingMaterial": "Bringing your brand to the people through the use of Business cards, Brochures, Catalogues, Signs, Banners.",
+            "productPackaging": "We create designs for your products that communicates your brand’s image through Product Labels of Cans, Boxes, Any other form of containers.",
+            "presentations": "To tell a story, sell an idea and breath life to concepts through the use of slide, typography and images in slides.",
+            "shirtAndApparel": "We have an in-house array of apparel for sale which are also customizable. We also design apparels for our customers from their own concepts or ideas.",
+            "reportsIllustrations": "We make the usually monotonous reporting pop and resonate to the intended audience by bringing color and life to otherwise boring reports for corporates."
         }
     ],
     "profile": [
         {
             "id": 1,
             "name": "Nurdin Chirwa",
-            "alterego": "sabhuku dofo",
+            "alterego": "Nurdin Sylvester",
             "phone": "+27 62 668 3369",
             "email": "nurdinchirwa@gmail.com",
-            "address": "203 Fake St, Mountain View, San Francisco, Manicaland, Zimbabwe"
+            "address": "203 Fake St, Mountain View, San Francisco, Manicaland, Zimbabwe",
+            "aboutme": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto."
         }
     ]
 }

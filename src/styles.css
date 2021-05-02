@@ -34,7 +34,7 @@ ul {
 }
 
 .banner-section {
-  background-image: url('./assets/img/hero_1.jpg');
+  background-image: url('./assets/img/hero_2.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -57,7 +57,7 @@ ul {
 
 .banner-section.inner-page-cover,
 .banner-section.inner-page-cover>.container>.row {
-  min-height: 500px;
+  min-height: 700px;
   height: calc(20vh);
 }
 
