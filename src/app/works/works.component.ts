@@ -9,7 +9,7 @@ import { WebsitedataService } from '../services/websitedata.service'
 export class WorksComponent implements OnInit {
 
   headerVariable: any = false;
-
+  public projects: any = [];
   @HostListener('document:scroll') scrollfunction(): void {
     if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
       this.headerVariable = true;
@@ -18,8 +18,6 @@ export class WorksComponent implements OnInit {
       this.headerVariable = false;
     }
   }
-
-  public projects: any = [];
 
   constructor(private websiteData: WebsitedataService) { }
 

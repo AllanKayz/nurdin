@@ -1,6 +1,7 @@
-import { Component, OnInit, HostListener } from '@angular/core';
+import { Component, OnInit, HostListener, ViewChild } from '@angular/core';
 import { WebsitedataService } from '../services/websitedata.service';
 import { Router } from '@angular/router';
+import emailjs, { EmailJSResponseStatus } from 'emailjs-com';
 
 @Component({
   selector: 'app-contact-us',
@@ -32,6 +33,27 @@ export class ContactUsComponent implements OnInit {
       this.email = data.profile[0].email;
       this.address = data.profile[0].address;
     });
+  }
+
+  contactUs(e: Event, contactForm: any): void {
+    e.preventDefault();
+
+    if (!contactForm.valid) {
+      console.log('failed');
+    }
+    else {
+      emailjs.sendForm('service_o5at4qh', 'template_h4a5vof', e.target as HTMLFormElement, 'user_hHAWzMAcXONz44iFZmU1n')
+        .then((result: EmailJSResponseStatus) => {
+          console.log(result.text);
+          if (result.text === 'OK') {
+            contactForm.reset();
+          }
+        }, (error) => {
+          console.log(error.text);
+        });
+
+      console.log('success');
+    }
   }
 
 }
