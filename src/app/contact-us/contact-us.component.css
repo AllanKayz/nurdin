@@ -19,12 +19,17 @@
 }
 
 .form-control {
-  border: 1px solid #eb9a0483;
+  /*border: 1px solid #eb9a0483;*/
 }
 
 .form-control:focus,
 .form-control-focus {
   box-shadow: #eb9a04;
+}
+
+::ng-deep .mat-form-field-label,
+::ng-deep .mat-form-field-underline:before {
+  color: #eb9a04;
 }
 
 @media(max-width:768px) {
