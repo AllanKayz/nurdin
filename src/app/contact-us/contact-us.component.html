@@ -25,10 +25,10 @@
               <form #contactForm="ngForm" (ngSubmit)="contactUs($event, contactForm)">
                 <div class="form-row">
                   <div class="form-group col-md-6">
-                    <mat-form-field class="w-100" appearance="fill">
-                      <mat-label for="firstname">First Name</mat-label>
-                      <input matInput ngModel type="text" class="form-control" id="firstname" name="firstname" required>
-                    </mat-form-field>
+                    <!--mat-form-field class="w-100" appearance="fill"-->
+                    <label for="firstname">First Name</label>
+                    <input ngModel type="text" class="form-control" id="firstname" name="firstname" required>
+                    <!--/mat-form-field-->
                   </div>
                   <div class="form-group col-md-6">
                     <label for="lastname">Last Name</label>
