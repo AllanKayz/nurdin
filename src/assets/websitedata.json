@@ -71,23 +71,16 @@
     "testimonies": [
         {
             "id": 1,
-            "testimonial": "Lorem ipsum dolor sit amet consectetur adipisicing elit.Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur.Amet dolores excepturi earum unde iusto.",
-            "author": "Grace Chimuti",
-            "authorimage": "person_1.jpg",
+            "testimonial": "Sleek Graphics is one highly professional brand and implementation start-up. They are very engaging. I highly recommend them as a part of all structural development teams for business, apparel design, rebranding, marketing etc.",
+            "author": "Lufayi 'That Guy' Mavhuto",
+            "authorimage": "mavhuto.jpg",
             "source": ""
         },
         {
             "id": 2,
-            "testimonial": "Lorem ipsum dolor sit amet consectetur adipisicing elit.Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur.Amet dolores excepturi earum unde iusto.",
-            "author": "knowledge musona",
-            "authorimage": "person_2.jpg",
-            "source": ""
-        },
-        {
-            "id": 3,
-            "testimonial": "Lorem ipsum dolor sit amet consectetur adipisicing elit.Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur.Amet dolores excepturi earum unde iusto.",
-            "author": "calisto pasuwa",
-            "authorimage": "person_3.jpg",
+            "testimonial": "Sleek Graphics have been very easy to work with. They listened to our needs, and we have been pleased with the creative design concepts he has developed for us. I'm looking forward to working with them again.",
+            "author": "John Tazzy",
+            "authorimage": "tazzy.jpg",
             "source": ""
         }
     ],
