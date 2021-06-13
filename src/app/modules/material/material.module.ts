@@ -21,7 +21,6 @@ import { MatMenuModule } from '@angular/material/menu';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatTooltipModule } from '@angular/material/tooltip';
-import { MatTreeModule } from '@angular/material/tree';
 import { MatTableModule } from '@angular/material/table';
 import { MatStepperModule } from '@angular/material/stepper';
 import { MatSortModule } from '@angular/material/sort';
@@ -34,7 +33,6 @@ import { MatRadioModule } from '@angular/material/radio';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { MatNativeDateModule } from '@angular/material/core';
-import { MatTabsModule } from '@angular/material/tabs';
 
 
 const MaterialComponents = [
@@ -59,7 +57,6 @@ const MaterialComponents = [
   MatPaginatorModule,
   MatToolbarModule,
   MatTooltipModule,
-  MatTreeModule,
   MatTableModule,
   MatStepperModule,
   MatStepperModule,
@@ -74,8 +71,7 @@ const MaterialComponents = [
   MatProgressSpinnerModule,
   MatProgressBarModule,
   MatButtonToggleModule,
-  MatNativeDateModule,
-  MatTabsModule
+  MatNativeDateModule
 ]
 
 
