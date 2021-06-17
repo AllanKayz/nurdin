@@ -1,9 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MatButtonModule } from '@angular/material/button';
-import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { MatBadgeModule } from '@angular/material/badge';
-import { MatBottomSheetModule } from '@angular/material/bottom-sheet';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { MatCardModule } from '@angular/material/card';
 import { MatCheckboxModule } from '@angular/material/checkbox';
@@ -37,9 +35,7 @@ import { MatNativeDateModule } from '@angular/material/core';
 
 const MaterialComponents = [
   MatButtonModule,
-  MatAutocompleteModule,
   MatBadgeModule,
-  MatBottomSheetModule,
   MatButtonModule,
   MatCardModule,
   MatCheckboxModule,
@@ -64,7 +60,6 @@ const MaterialComponents = [
   MatSnackBarModule,
   MatSliderModule,
   MatSlideToggleModule,
-  MatSlideToggleModule,
   MatSidenavModule,
   MatSelectModule,
   MatRadioModule,
@@ -72,8 +67,7 @@ const MaterialComponents = [
   MatProgressBarModule,
   MatButtonToggleModule,
   MatNativeDateModule
-]
-
+];
 
 @NgModule({
   declarations: [],
