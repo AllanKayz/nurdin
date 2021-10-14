@@ -1,69 +1,69 @@
 {
-    "logo":"logo.png",
+    "logo":"logo.webp",
     "projects": [
             {
                 "id": 1,
-                "imagename": "parspar.jpg",
+                "imagename": "parspar.webp",
                 "name": "par spa",
                 "category": "flyer"
             },
             {
                 "id": 2,
-                "imagename": "runakoshirt.jpg",
+                "imagename": "runakoshirt.webp",
                 "name": "Runako Shirt",
                 "category": "shirt designs"
             },
             {
                 "id": 3,
-                "imagename": "tonaz.jpg",
+                "imagename": "tonaz.webp",
                 "name": "tonaz",
                 "category": "apparel designs"
             },
             {
                 "id": 4,
-                "imagename": "chandra.jpg",
+                "imagename": "chandra.webp",
                 "name": "chandra",
                 "category": "billboard"
             },
             {
                 "id": 5,
-                "imagename": "methodistmask.jpg",
+                "imagename": "methodistmask.webp",
                 "name": "methodist mask",
                 "category": "apparel designs"
             },
             {
                 "id": 6,
-                "imagename": "rebelslogo.jpg",
+                "imagename": "rebelslogo.webp",
                 "name": "rebels",
                 "category": "logo"
             },
             {
                 "id": 7,
-                "imagename": "missfah.jpg",
+                "imagename": "missfah.webp",
                 "name": "miss fah",
                 "category": "flyer"
             },
             {
                 "id": 8,
-                "imagename": "biteful.jpg",
+                "imagename": "biteful.webp",
                 "name": "biteful",
                 "category": "apparel designs"
             },
             {
                 "id": 9,
-                "imagename": "runakologo.jpg",
+                "imagename": "runakologo.webp",
                 "name": "runako piggery",
                 "category": "logo"
             },
             {
                 "id": 10,
-                "imagename": "bluesurge.jpg",
+                "imagename": "bluesurge.webp",
                 "name": "bluesurge technologies",
                 "category": "logo"
             },
             {
                 "id": 11,
-                "imagename": "cybernet.jpg",
+                "imagename": "cybernet.webp",
                 "name": "cybernet",
                 "category": "banner"
             }
@@ -73,14 +73,14 @@
             "id": 1,
             "testimonial": "Sleek Graphics is one highly professional brand and implementation start-up. They are very engaging. I highly recommend them as a part of all structural development teams for business, apparel design, rebranding, marketing etc.",
             "author": "Lufayi 'That Guy' Mavhuto",
-            "authorimage": "mavhuto.jpg",
+            "authorimage": "mavhuto.webp",
             "source": ""
         },
         {
             "id": 2,
             "testimonial": "Sleek Graphics have been very easy to work with. They listened to our needs, and we have been pleased with the creative design concepts he has developed for us. I'm looking forward to working with them again.",
             "author": "John Tazzy",
-            "authorimage": "tazzy.jpg",
+            "authorimage": "tazzy.webp",
             "source": ""
         }
     ],
