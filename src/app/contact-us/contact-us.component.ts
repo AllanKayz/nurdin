@@ -37,7 +37,7 @@ export class ContactUsComponent implements OnInit {
     });
   }
 
-  openSnackBar(message: string, action: string) {
+  openSnackBar(message: string, action: string): any {
     return this.snackBar.open(message, action, {
       duration: this.durationInSeconds * 1000,
       verticalPosition: 'top'
