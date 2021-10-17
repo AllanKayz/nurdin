@@ -16,7 +16,7 @@ export class LoginComponent implements OnInit {
 
     @ViewChild('alert') alert: any;
 
-    public loginError: string = 'Fill All Required Fields';
+    public loginError = 'Fill All Required Fields';
 
     login(loginForm: NgForm) {
         if (loginForm.valid) {
@@ -25,7 +25,7 @@ export class LoginComponent implements OnInit {
         }
         else {
             this.alert.nativeElement.classList.remove('hidden');
-            this.loginError
+            this.loginError;
         }
     }
 

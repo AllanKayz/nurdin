@@ -38,7 +38,7 @@ export class AdministrationComponent implements OnInit {
 
   public toggleSidebar() {
     this.elementsArray = [this.logo, this.spacer, this.dashboard, this.inbox, this.tasks, this.manageSite];
-    if (this.contentPanel.nativeElement.classList == "content-panel") {
+    if (this.contentPanel.nativeElement.classList == 'content-panel') {
       this.contentPanel.nativeElement.classList.remove('content-panel');
       this.contentPanel.nativeElement.classList.add('content-panel-flex-11');
       this.elementsArray.forEach(this.addHideClass);

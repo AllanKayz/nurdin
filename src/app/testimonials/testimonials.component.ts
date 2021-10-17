@@ -23,7 +23,7 @@ export class TestimonialsComponent implements OnInit {
       }
     },
     nav: false
-  }
+  };
 
   public testimonies: any = [];
 
@@ -32,7 +32,7 @@ export class TestimonialsComponent implements OnInit {
   ngOnInit(): void {
     this.websiteData.getLocalData().subscribe((data: any) => {
       this.testimonies = data.testimonies;
-    })
+    });
   }
 
 }
