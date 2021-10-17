@@ -118,7 +118,7 @@ ul {
   opacity: 0;
   visibility: hidden;
   bottom: -10px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .media-1 .media-1-content .category {
@@ -141,7 +141,7 @@ ul {
 }
 
 .media-1:hover .media-1-content h2 {
-  bottom: 0px;
+  bottom: 0;
   opacity: 1;
   visibility: visible;
 }
@@ -149,7 +149,7 @@ ul {
 .media-1:hover .media-1-content .category {
   opacity: 1;
   visibility: visible;
-  bottom: 0px;
+  bottom: 0;
   -webkit-transition-delay: 0.09s;
   -o-transition-delay: 0.09s;
   transition-delay: 0.09s;
