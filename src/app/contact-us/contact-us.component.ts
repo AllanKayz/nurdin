@@ -2,7 +2,7 @@ import { Component, OnInit, HostListener, ViewChild } from '@angular/core';
 import { WebsitedataService } from '../services/websitedata.service';
 import { Router } from '@angular/router';
 import emailjs, { EmailJSResponseStatus } from 'emailjs-com';
-import { MatSnackBar } from '@angular/material/snack-bar'
+import { MatSnackBar } from '@angular/material/snack-bar';
 
 @Component({
   selector: 'app-contact-us',
@@ -48,18 +48,18 @@ export class ContactUsComponent implements OnInit {
     e.preventDefault();
 
     if (!contactForm.valid) {
-      this.openSnackBar('Fill In All The Needed Information', 'Close')
+      this.openSnackBar('Fill In All The Needed Information', 'Close');
     }
     else {
       emailjs.sendForm('service_o5at4qh', 'template_h4a5vof', e.target as HTMLFormElement, 'user_hHAWzMAcXONz44iFZmU1n')
         .then((result: EmailJSResponseStatus) => {
           console.log(result.text);
           if (result.text === 'OK') {
-            this.openSnackBar('Message Sent', 'Close')
+            this.openSnackBar('Message Sent', 'Close');
             contactForm.reset();
           }
         }, (error) => {
-          this.openSnackBar('Failed To Send Message Try Again', 'Close')
+          this.openSnackBar('Failed To Send Message Try Again', 'Close');
           console.log(error.text);
         });
     }

@@ -1,5 +1,5 @@
 import { Component, OnInit, HostListener } from '@angular/core';
-import { WebsitedataService } from '../services/websitedata.service'
+import { WebsitedataService } from '../services/websitedata.service';
 
 @Component({
   selector: 'app-works',

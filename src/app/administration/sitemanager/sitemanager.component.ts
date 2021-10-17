@@ -11,9 +11,9 @@ export class SitemanagerComponent implements OnInit {
 
   constructor(private websiteData: WebsitedataService) { }
 
-  values: string = 'values';
-  mission: string = 'mission';
-  philosophy: string = 'philosophy';
+  values = 'values';
+  mission = 'mission';
+  philosophy = 'philosophy';
 
   ngOnInit(): void {
     this.websiteData.getLocalData().subscribe((data: any) => {
