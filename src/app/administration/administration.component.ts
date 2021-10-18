@@ -36,7 +36,7 @@ export class AdministrationComponent implements OnInit {
     element.nativeElement.classList.remove('hide');
   }
 
-  public toggleSidebar() {
+  public toggleSidebar(): void  {
     this.elementsArray = [this.logo, this.spacer, this.dashboard, this.inbox, this.tasks, this.manageSite];
     if (this.contentPanel.nativeElement.classList == 'content-panel') {
       this.contentPanel.nativeElement.classList.remove('content-panel');
@@ -52,11 +52,11 @@ export class AdministrationComponent implements OnInit {
     }
   }
 
-  public closeMobileMenu() {
+  public closeMobileMenu(): void  {
     this.mobileMenu.nativeElement.classList.add('hide');
   }
 
-  public showMobileMenu() {
+  public showMobileMenu(): void  {
     this.mobileMenu.nativeElement.classList.remove('hide');
   }
 }
